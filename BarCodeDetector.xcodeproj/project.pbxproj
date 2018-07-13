@@ -14,6 +14,10 @@
 		6344332220F6AF9D0077B39C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6344332020F6AF9D0077B39C /* LaunchScreen.storyboard */; };
 		6344332D20F6AF9D0077B39C /* BarCodeDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344332C20F6AF9D0077B39C /* BarCodeDetectorTests.swift */; };
 		6344333820F6AF9D0077B39C /* BarCodeDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344333720F6AF9D0077B39C /* BarCodeDetectorUITests.swift */; };
+		63BF230720F7ED670018DBD0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63BF230620F7ED670018DBD0 /* GoogleService-Info.plist */; };
+		7C1BFB0E2B0FCEDBA76CF260 /* Pods_BarCodeDetectorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B7694D818FF28A5E066D10 /* Pods_BarCodeDetectorUITests.framework */; };
+		D212B480D5EFBA7D1FD81DD5 /* Pods_BarCodeDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7696FF1FCC0B0C7C446809 /* Pods_BarCodeDetector.framework */; };
+		D5DD1E3B1C713F920F8409E9 /* Pods_BarCodeDetectorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641D961CE2988A959D77E678 /* Pods_BarCodeDetectorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B7696FF1FCC0B0C7C446809 /* Pods_BarCodeDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarCodeDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B22844B5F08D4589F66135F /* Pods-BarCodeDetectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarCodeDetectorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarCodeDetectorTests/Pods-BarCodeDetectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D04D30C93D7841B6B49E647 /* Pods-BarCodeDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarCodeDetector.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarCodeDetector/Pods-BarCodeDetector.release.xcconfig"; sourceTree = "<group>"; };
+		3D265DD8B60E722EA3A561FA /* Pods-BarCodeDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarCodeDetector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarCodeDetector/Pods-BarCodeDetector.debug.xcconfig"; sourceTree = "<group>"; };
+		61B7694D818FF28A5E066D10 /* Pods_BarCodeDetectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarCodeDetectorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6344331420F6AF9D0077B39C /* BarCodeDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCodeDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6344331720F6AF9D0077B39C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6344331920F6AF9D0077B39C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		6344333320F6AF9D0077B39C /* BarCodeDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarCodeDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6344333720F6AF9D0077B39C /* BarCodeDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeDetectorUITests.swift; sourceTree = "<group>"; };
 		6344333920F6AF9D0077B39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BF230620F7ED670018DBD0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		641D961CE2988A959D77E678 /* Pods_BarCodeDetectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarCodeDetectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E717528B6E4873D524DCB48 /* Pods-BarCodeDetectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarCodeDetectorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarCodeDetectorTests/Pods-BarCodeDetectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4CA61D85AF151B8230CB49D /* Pods-BarCodeDetectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarCodeDetectorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarCodeDetectorUITests/Pods-BarCodeDetectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6459F478A47154E4CA696F5 /* Pods-BarCodeDetectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarCodeDetectorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarCodeDetectorUITests/Pods-BarCodeDetectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D212B480D5EFBA7D1FD81DD5 /* Pods_BarCodeDetector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5DD1E3B1C713F920F8409E9 /* Pods_BarCodeDetectorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C1BFB0E2B0FCEDBA76CF260 /* Pods_BarCodeDetectorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				6344332B20F6AF9D0077B39C /* BarCodeDetectorTests */,
 				6344333620F6AF9D0077B39C /* BarCodeDetectorUITests */,
 				6344331520F6AF9D0077B39C /* Products */,
+				CB0CAC17C3F291F8A6A4FA88 /* Pods */,
+				AF7177F1576850BC16460CB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +116,7 @@
 		6344331620F6AF9D0077B39C /* BarCodeDetector */ = {
 			isa = PBXGroup;
 			children = (
+				63BF230620F7ED670018DBD0 /* GoogleService-Info.plist */,
 				6344331720F6AF9D0077B39C /* AppDelegate.swift */,
 				6344331920F6AF9D0077B39C /* ViewController.swift */,
 				6344331B20F6AF9D0077B39C /* Main.storyboard */,
@@ -125,6 +145,29 @@
 			path = BarCodeDetectorUITests;
 			sourceTree = "<group>";
 		};
+		AF7177F1576850BC16460CB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B7696FF1FCC0B0C7C446809 /* Pods_BarCodeDetector.framework */,
+				641D961CE2988A959D77E678 /* Pods_BarCodeDetectorTests.framework */,
+				61B7694D818FF28A5E066D10 /* Pods_BarCodeDetectorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB0CAC17C3F291F8A6A4FA88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D265DD8B60E722EA3A561FA /* Pods-BarCodeDetector.debug.xcconfig */,
+				3D04D30C93D7841B6B49E647 /* Pods-BarCodeDetector.release.xcconfig */,
+				7E717528B6E4873D524DCB48 /* Pods-BarCodeDetectorTests.debug.xcconfig */,
+				1B22844B5F08D4589F66135F /* Pods-BarCodeDetectorTests.release.xcconfig */,
+				D6459F478A47154E4CA696F5 /* Pods-BarCodeDetectorUITests.debug.xcconfig */,
+				C4CA61D85AF151B8230CB49D /* Pods-BarCodeDetectorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6344333C20F6AF9D0077B39C /* Build configuration list for PBXNativeTarget "BarCodeDetector" */;
 			buildPhases = (
+				964F6DFD73233BEA871F3E47 /* [CP] Check Pods Manifest.lock */,
 				6344331020F6AF9D0077B39C /* Sources */,
 				6344331120F6AF9D0077B39C /* Frameworks */,
 				6344331220F6AF9D0077B39C /* Resources */,
+				41C2B66A4EC9B01EC7DA68CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6344333F20F6AF9D0077B39C /* Build configuration list for PBXNativeTarget "BarCodeDetectorTests" */;
 			buildPhases = (
+				B21A4CE4C386D2289BBC7DA1 /* [CP] Check Pods Manifest.lock */,
 				6344332420F6AF9D0077B39C /* Sources */,
 				6344332520F6AF9D0077B39C /* Frameworks */,
 				6344332620F6AF9D0077B39C /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6344334220F6AF9D0077B39C /* Build configuration list for PBXNativeTarget "BarCodeDetectorUITests" */;
 			buildPhases = (
+				2BF0C13D5433EFB13825C636 /* [CP] Check Pods Manifest.lock */,
 				6344332F20F6AF9D0077B39C /* Sources */,
 				6344333020F6AF9D0077B39C /* Frameworks */,
 				6344333120F6AF9D0077B39C /* Resources */,
@@ -233,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6344332220F6AF9D0077B39C /* LaunchScreen.storyboard in Resources */,
+				63BF230720F7ED670018DBD0 /* GoogleService-Info.plist in Resources */,
 				6344331F20F6AF9D0077B39C /* Assets.xcassets in Resources */,
 				6344331D20F6AF9D0077B39C /* Main.storyboard in Resources */,
 			);
@@ -253,6 +301,89 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BF0C13D5433EFB13825C636 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarCodeDetectorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41C2B66A4EC9B01EC7DA68CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BarCodeDetector/Pods-BarCodeDetector-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarCodeDetector/Pods-BarCodeDetector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		964F6DFD73233BEA871F3E47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarCodeDetector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21A4CE4C386D2289BBC7DA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarCodeDetectorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6344331020F6AF9D0077B39C /* Sources */ = {
@@ -424,6 +555,7 @@
 		};
 		6344333D20F6AF9D0077B39C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D265DD8B60E722EA3A561FA /* Pods-BarCodeDetector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +570,7 @@
 		};
 		6344333E20F6AF9D0077B39C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D04D30C93D7841B6B49E647 /* Pods-BarCodeDetector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +585,7 @@
 		};
 		6344334020F6AF9D0077B39C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E717528B6E4873D524DCB48 /* Pods-BarCodeDetectorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +602,7 @@
 		};
 		6344334120F6AF9D0077B39C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B22844B5F08D4589F66135F /* Pods-BarCodeDetectorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +619,7 @@
 		};
 		6344334320F6AF9D0077B39C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6459F478A47154E4CA696F5 /* Pods-BarCodeDetectorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +635,7 @@
 		};
 		6344334420F6AF9D0077B39C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4CA61D85AF151B8230CB49D /* Pods-BarCodeDetectorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
